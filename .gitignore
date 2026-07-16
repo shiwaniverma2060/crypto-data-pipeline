@@ -1,0 +1,12 @@
+venv/
+.env
+__pycache__/
+*.pyc
+data/raw/*.json
+data/processed/*.csv
+dbt_crypto/target/
+dbt_crypto/dbt_packages/
+dbt_crypto/logs/
+.DS_Store
+dbt_crypto/profiles.yml
+dbt_crypto/.user.yml

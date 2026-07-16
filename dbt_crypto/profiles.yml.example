@@ -1,0 +1,12 @@
+dbt_crypto:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: your-supabase-host.pooler.supabase.com
+      user: postgres.your-project-id
+      password: your-database-password
+      port: 5432
+      dbname: postgres
+      schema: public
+      threads: 4
