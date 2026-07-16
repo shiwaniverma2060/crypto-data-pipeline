@@ -1,5 +1,12 @@
 # 🪙 Crypto Market Data Pipeline
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+
 **A production-style, end-to-end ETL/ELT data pipeline** that automatically extracts live cryptocurrency market data, validates its quality, loads it into a cloud data warehouse, transforms it into analytics-ready tables, and orchestrates the entire workflow on a daily schedule — fully automated, running on 100% free-tier infrastructure.
 
 > Built to demonstrate real-world data engineering skills: API integration, data validation, cloud warehousing, SQL-based transformation, containerization, and workflow orchestration.
