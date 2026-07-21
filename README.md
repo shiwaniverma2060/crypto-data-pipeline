@@ -13,6 +13,23 @@
 
 ---
 
+## Pipeline Preview
+
+**Airflow Orchestration** — all 5 pipeline stages (extract → transform → validate → load → dbt_run) running successfully
+
+![Airflow Pipeline Success](screenshots/airflow-pipeline-success.png)
+
+**Cluster Health** — Airflow scheduler and metadata database status
+
+![Cluster Health](screenshots/cluster-health.png)
+
+**Supabase Data Warehouse** — validated data landed in the cloud PostgreSQL warehouse
+
+![Supabase Data Table](screenshots/supabase-data-table.png)
+![Supabase Data Columns](screenshots/supabase-data-columns.png)
+
+---
+
 ## 📌 What This Project Does
 
 Every day, without any manual intervention, this pipeline:
